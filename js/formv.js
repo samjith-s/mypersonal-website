@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     jQuery.validator.addMethod("noSpace", function(value, element) { 
-       return value != "" && value[0]!=0; 
+      return value != "" && value[0]!=0 && value[0]!=1 && value[0]!=2 && value[0]!=3 && value[0]!=4 && value[0]!=5 && value[0]!=6;
     }, "Space are not allowed");
     
   

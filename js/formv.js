@@ -9,7 +9,7 @@ $(document).ready(function() {
       errorLabelContainer: $("#form-messages"),
       rules: {
         name: { required: true, noSpace: true },
-        message: { required: true },
+        message: { required: true, noSpace: true},
         
       },
       messages: {
